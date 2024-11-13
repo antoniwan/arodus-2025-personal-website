@@ -35,19 +35,19 @@ export default function Home() {
 
         <ul className="link-list">
           <li>
-            <Link href="https://www.linkedin.com/in/antoniwan/" target="_blank">
-              Work Profile @ LinkedIn
-            </Link>
+            <a href="https://www.linkedin.com/in/antoniwan/" target="_blank">
+              Work Profile @ LinkedIn <sub>🔗</sub>
+            </a>
           </li>
           <li>
-            <Link href="https://github.com/antoniwan" target="_blank">
-              GitHub Profile
-            </Link>
+            <a href="https://github.com/antoniwan" target="_blank">
+              GitHub Profile <sub>🔗</sub>
+            </a>
           </li>
           <li>
-            <Link href="https://codepen.io/antoniwan/#" target="_blank">
-              CodePen Examples
-            </Link>
+            <a href="https://codepen.io/antoniwan/#" target="_blank">
+              CodePen Examples <sub>🔗</sub>
+            </a>
           </li>
           <li>
             <Link href="mailto:antonio@builds.software" target="_blank">
@@ -58,20 +58,17 @@ export default function Home() {
             <Link href="/projects">See Recent Projects</Link>
           </li>
           <li>
-            <Link
-              href="https://medium.com/@wizards777"
-              rel="noreferrer noopener"
-            >
-              Blog (@Medium)
-            </Link>
+            <a href="https://medium.com/@wizards777" rel="noreferrer noopener">
+              Blog @ Medium<sub>🔗</sub>
+            </a>
           </li>
           <li>
-            <Link
+            <a
               href="https://www.goodreads.com/antoniwan"
               rel="noreferrer noopener"
             >
-              Check out what I&apos;m reading!
-            </Link>
+              Check out what I&apos;m reading @ Goodreads <sub>🔗</sub>
+            </a>
           </li>
           <li>
             <Link href="/about-me">Learn More About Me</Link>

@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <body
         className={`${textFont.className} antialiased bg-white dark:bg-stone-950 text-black dark:text-white`}
       >
