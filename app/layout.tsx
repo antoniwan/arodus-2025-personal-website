@@ -1,12 +1,7 @@
 import type { Metadata } from "next";
-import { Lora } from "next/font/google";
+import { textFont } from "@/utility/fonts";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
-
-const textFont = Lora({
-  subsets: ["latin"],
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "Antonio Rodríguez",
@@ -20,11 +15,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <body
-        className={`${textFont.className} antialiased bg-white dark:bg-black text-black dark:text-white`}
+        className={`${textFont.className} antialiased bg-white dark:bg-stone-950 text-black dark:text-white`}
       >
-        <Navigation />
-        {children}
+        <div className="animated-colors">
+          <Navigation />
+        </div>
+        <main className="container mx-auto">
+          <div className="mx-4">{children}</div>
+        </main>
       </body>
     </html>
   );

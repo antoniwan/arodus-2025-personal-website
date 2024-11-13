@@ -20,28 +20,30 @@ const Navigation = () => {
     setIsDarkMode((previousState) => !previousState);
   };
 
+  const linkItemClassNames = `flex py-2 px-4 rounded-full text-white font-bold hover:bg-gray-300 hover:text-stone-950 transition-all`;
+
   return (
-    <>
-      <ul className="px-4 py-4 flex space-x-4">
+    <nav className="container mx-auto px-2 py-4 mb-8">
+      <ul className="navigation-bar flex justify-between md:justify-start md:space-x-4 mx-2">
+        {[
+          [`🏠`, "/"],
+          ["About Me", "/about-me"],
+          ["Projects", "/projects"],
+          ["Blog", "/blog"],
+        ].map(([title, url]) => (
+          <li key={title}>
+            <Link className={linkItemClassNames} href={url}>
+              {title}
+            </Link>
+          </li>
+        ))}
         <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
-          <Link href="/about-me">About Me</Link>
-        </li>
-        <li>
-          <Link href="/projects">Projects</Link>
-        </li>
-        <li>
-          <Link href="/blog">Blog</Link>
-        </li>
-        <li>
-          <button onClick={toggleDarkMode}>
-            {!isDarkMode ? <span>🌒</span> : <span>☀️</span>}
+          <button className={linkItemClassNames} onClick={toggleDarkMode}>
+            {!isDarkMode ? <span>🌒</span> : <span>🌞</span>}
           </button>
         </li>
       </ul>
-    </>
+    </nav>
   );
 };
 

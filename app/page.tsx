@@ -1,17 +1,28 @@
 import Link from "next/link";
+import { headingFont } from "@/utility/fonts";
 
 export default function Home() {
   return (
-    <div className="">
-      <h1 className="text-xl">Antonio Rodriguez</h1>
+    <div>
+      <h1 className={`text-4xl font-black ${headingFont.className}`}>
+        Antonio Rodriguez
+      </h1>
       <p>
-        Enjoyer of Learning and Getting Things Done, Parent<sup>2</sup>,
-        Technical Program Manager, Web Developer, Product Leader, Amateur
-        Philosopher, Striving for Health, Consciousness, Strength, and
-        Self-Transcendence
+        <em>
+          Enjoyer of Learning and Getting Things Done, Parent<sup>2</sup>,
+          Technical Program Manager, Web Developer, Product Leader, Amateur
+          Philosopher, Striving for Health, Consciousness, Strength, and
+          Self-Transcendence ✨
+        </em>
+      </p>
+      <p>
+        Dive into my work, interests, and background through the links below. I
+        invite you to connect with me for potential projects, consultations,
+        mentorship, or collaborations—I&apos;m eager to contribute and make a
+        positive impact. Thanks for visiting!
       </p>
 
-      <ul>
+      <ul className="link-list">
         <li>
           <Link href="https://www.linkedin.com/in/antoniwan/" target="_blank">
             Work Profile @ LinkedIn
@@ -45,7 +56,7 @@ export default function Home() {
             href="https://www.goodreads.com/antoniwan"
             rel="noreferrer noopener"
           >
-            Check out what I'm reading!
+            Check out what I&apos;m reading!
           </Link>
         </li>
         <li>
