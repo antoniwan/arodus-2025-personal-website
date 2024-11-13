@@ -22,8 +22,8 @@ export default function RootLayout({
         <div className="animated-colors">
           <Navigation />
         </div>
-        <main className="container mx-auto">
-          <div className="mx-4">{children}</div>
+        <main className="container mx-auto mb-12">
+          <div className="mx-8">{children}</div>
         </main>
       </body>
     </html>

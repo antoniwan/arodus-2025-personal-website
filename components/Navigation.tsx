@@ -23,7 +23,7 @@ const Navigation = () => {
   const linkItemClassNames = `flex py-2 px-4 rounded-full text-white font-bold hover:bg-gray-300 hover:text-stone-950 transition-all`;
 
   return (
-    <nav className="container mx-auto px-2 py-4 mb-8">
+    <nav className="container mx-auto px-2 py-4 mb-12">
       <ul className="navigation-bar flex justify-between md:justify-start md:space-x-4 mx-2">
         {[
           [`🏠`, "/"],
