@@ -51,8 +51,8 @@ export default function AboutMe() {
           Contributor, Architect, Chief Technology Officer, Engineering Manager,
           and Director to a few teams, projects, and products with various
           levels of effort and impact. Nowadays, I&apos;m enjoying my work as a
-          Technical Program Manager for the digital core technology group in a
-          fantastic Global tool and hardware company.
+          Technical Program Manager for the digital marketing technologies core
+          group in a fantastic Global tool and hardware company.
         </p>
         <p>
           Aside from work, I focus on being conscious and present. I enjoy
