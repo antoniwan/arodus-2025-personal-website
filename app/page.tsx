@@ -1,7 +1,17 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from "next";
 import { headingFont } from "@/utility/fonts";
 import profilePicture from "@/assets/profile-picture-2024.avif";
+
+export const metadata: Metadata = {
+  title: "Home | Antonio Rodríguez",
+  description:
+    "Enjoyer of Learning and Getting Things Done, Parent, Technical Program Manager, Web Developer, Product Leader, Amateur Philosopher, Striving for Health, Consciousness, Strength, and Self-Transcendence ✨",
+  openGraph: {
+    images: ["/share-image.jpg"],
+  },
+};
 
 export default function Home() {
   return (
