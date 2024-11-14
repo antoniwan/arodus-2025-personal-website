@@ -17,8 +17,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Analytics />
-      <SpeedInsights />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <body
         className={`${textFont.className} antialiased bg-white dark:bg-stone-950 text-black dark:text-white`}
@@ -29,6 +27,8 @@ export default function RootLayout({
         <main className="container mx-auto mb-12">
           <div className="mx-8">{children}</div>
         </main>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
