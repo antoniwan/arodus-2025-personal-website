@@ -9,6 +9,9 @@ import lawyer_cms_mobile from "@/assets/projects/abogadajulia-iphone.avif";
 import wordle_desktop from "@/assets/projects/wordle-desktop.avif";
 import wordle_tablet from "@/assets/projects/wordle-ipad.avif";
 import wordle_mobile from "@/assets/projects/wordle-iphone.avif";
+import ja_desktop from "@/assets/projects/ja-desktop.avif";
+import ja_tablet from "@/assets/projects/ja-ipad.avif";
+import ja_mobile from "@/assets/projects/ja-iphone.avif";
 
 export default function Home() {
   return (
@@ -108,7 +111,7 @@ export default function Home() {
         tabletScreenshot={wordle_mobile}
       >
         <p>
-          This Wordle word game clone is a practice exercise from{" "}
+          This Wordle Word game clone is a practice exercise from{" "}
           <a
             href="https://www.joyofreact.com"
             rel="noopener noreferrer"
@@ -133,6 +136,48 @@ export default function Home() {
           goodies. Please give it a spin; it should be fun!
         </p>
       </ProjectItem>
+
+      <ProjectItem
+        title="JuanAngustia.com"
+        type="Professional Personal Portfolio"
+        url="https://juanangustia.com/"
+        desktopScreenshot={ja_desktop}
+        mobileScreenshot={ja_tablet}
+        tabletScreenshot={ja_mobile}
+      >
+        <p>
+          I used the{" "}
+          <a
+            href="https://create-react-app.dev"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            create-react-app
+          </a>{" "}
+          React starter to create a vivid portfolio website for my Googler
+          friend. He designed every visual aspect of the site. I developed the
+          components, layouts, and necessary JavaScript and React hooks to
+          calculate and animate all transitions and particle effects using the{" "}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.framer.com/motion/animation/"
+          >
+            Framer Motion
+          </a>{" "}
+          animation libraries for mobile, tablet, and desktop breakpoints—this
+          was particularly challenging.
+        </p>
+      </ProjectItem>
+
+      <div className="flex flex-row flex-wrap">
+        <h2 className="text-center text-3xl font-black mr-2">
+          Ready to work with me?
+        </h2>
+        <a href="mailto:antonio@builds.software" className="text-3xl font-bold">
+          Let's talk!
+        </a>
+      </div>
     </div>
   );
 }
