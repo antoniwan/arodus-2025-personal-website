@@ -22,7 +22,7 @@ const Navigation = () => {
     setIsDarkMode((previousState) => !previousState);
   };
 
-  const linkItemClassNames = `flex rounded-full text-center text-white font-bold hover:text-stone-950 transition-all`;
+  const linkItemClassNames = `flex rounded-full text-center text-white font-semibold hover:text-stone-950 transition-all`;
 
   return (
     <nav className="container mx-auto px-2 py-4 mb-12">
