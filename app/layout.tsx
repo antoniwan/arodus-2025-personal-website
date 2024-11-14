@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import { textFont } from "@/utility/fonts";
 import "./globals.css";
@@ -15,6 +17,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Analytics />
+      <SpeedInsights />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <body
         className={`${textFont.className} antialiased bg-white dark:bg-stone-950 text-black dark:text-white`}
