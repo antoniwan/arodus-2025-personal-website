@@ -126,13 +126,13 @@ export default function Home() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            Parcel's
+            Parcel&apos;s
           </a>{" "}
           minimum build tooling. Throughout the exercise, I practiced React
           hooks, flexbox CSS, data bindings, form submissions, regular
           expressions, state hooks, cool JavaScript syntax tricks (object
-          destructuring, spread operators, others), utility 'library' files
-          organization, conditional rendering, event handlers, and other
+          destructuring, spread operators, others), utility &apos;library&apos;
+          files organization, conditional rendering, event handlers, and other
           goodies. Please give it a spin; it should be fun!
         </p>
       </ProjectItem>
