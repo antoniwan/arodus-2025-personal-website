@@ -175,7 +175,7 @@ export default function Home() {
           Ready to work with me?
         </h2>
         <a href="mailto:antonio@builds.software" className="text-3xl font-bold">
-          Let's talk!
+          Let&apos;s talk!
         </a>
       </div>
     </div>
