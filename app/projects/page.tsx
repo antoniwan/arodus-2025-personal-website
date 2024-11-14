@@ -107,8 +107,8 @@ export default function Home() {
         type="Wordle Game Clone"
         url="https://wordle-clone-arm.netlify.app/"
         desktopScreenshot={wordle_desktop}
-        mobileScreenshot={wordle_tablet}
-        tabletScreenshot={wordle_mobile}
+        mobileScreenshot={wordle_mobile}
+        tabletScreenshot={wordle_tablet}
       >
         <p>
           This Wordle Word game clone is a practice exercise from{" "}
@@ -142,8 +142,8 @@ export default function Home() {
         type="Professional Personal Portfolio"
         url="https://juanangustia.com/"
         desktopScreenshot={ja_desktop}
-        mobileScreenshot={ja_tablet}
-        tabletScreenshot={ja_mobile}
+        mobileScreenshot={ja_mobile}
+        tabletScreenshot={ja_tablet}
       >
         <p>
           I used the{" "}
