@@ -45,19 +45,19 @@ const ProjectItem = ({
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 m:h-80 p-8 overflow-hidden">
         <Image
-          className="object-scale-down rounded-lg"
+          className="object-scale-down rounded-lg shadow"
           src={desktopScreenshot}
-          alt="Desktop Screenshot of a children's ebook"
+          alt={`Desktop Screenshot of ${type}`}
         />
         <Image
-          className="object-scale-down rounded-lg"
+          className="object-scale-down rounded-lg shadow"
           src={mobileScreenshot}
-          alt="Mobile Screenshot of a children's ebook"
+          alt={`Mobile Screenshot of ${type}`}
         />
         <Image
-          className="object-scale-down rounded-lg"
+          className="object-scale-down rounded-lg shadow"
           src={tabletScreenshot}
-          alt="Tablet Screenshot of a children's ebook"
+          alt={`Tablet Screenshot of ${type}`}
         />
       </div>
     </div>

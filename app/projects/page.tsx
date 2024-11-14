@@ -6,6 +6,9 @@ import kids_ebook_mobile from "@/assets/projects/ebook_kids-iphone.avif";
 import lawyer_cms_desktop from "@/assets/projects/abogadajulia-desktop.avif";
 import lawyer_cms_tablet from "@/assets/projects/abogadajulia-ipad.avif";
 import lawyer_cms_mobile from "@/assets/projects/abogadajulia-iphone.avif";
+import wordle_desktop from "@/assets/projects/wordle-desktop.avif";
+import wordle_tablet from "@/assets/projects/wordle-ipad.avif";
+import wordle_mobile from "@/assets/projects/wordle-iphone.avif";
 
 export default function Home() {
   return (
@@ -100,32 +103,34 @@ export default function Home() {
         title="Word Game (Practice Exercise)"
         type="Wordle Game Clone"
         url="https://wordle-clone-arm.netlify.app/"
-        desktopScreenshot={kids_ebook_desktop}
-        mobileScreenshot={kids_ebook_mobile}
-        tabletScreenshot={kids_ebook_tablet}
+        desktopScreenshot={wordle_desktop}
+        mobileScreenshot={wordle_tablet}
+        tabletScreenshot={wordle_mobile}
       >
         <p>
-          I used the{" "}
+          This Wordle word game clone is a practice exercise from{" "}
           <a
-            href="https://create-react-app.dev"
+            href="https://www.joyofreact.com"
             rel="noopener noreferrer"
             target="_blank"
           >
-            create-react-app
+            The Joy of React
           </a>{" "}
-          React starter to create a simple e-book website. It uses{" "}
+          by <em>Josh W Comeau</em>, and it had me practice creating dynamic
+          user interfaces and bundling the React web application with{" "}
           <a
-            href="https://styled-components.com"
-            target="_blank"
+            href="https://parceljs.org"
             rel="noopener noreferrer"
+            target="_blank"
           >
-            Styled Components
-          </a>
-          , React hooks, and context to manage state and local storage to save
-          the chosen language and the last page the user browsed. I made the
-          illustrations using multiple AI generators, and writing the content
-          was the most challenging part. The design is simple, although entirely
-          responsive.
+            Parcel's
+          </a>{" "}
+          minimum build tooling. Throughout the exercise, I practiced React
+          hooks, flexbox CSS, data bindings, form submissions, regular
+          expressions, state hooks, cool JavaScript syntax tricks (object
+          destructuring, spread operators, others), utility 'library' files
+          organization, conditional rendering, event handlers, and other
+          goodies. Please give it a spin; it should be fun!
         </p>
       </ProjectItem>
     </div>
