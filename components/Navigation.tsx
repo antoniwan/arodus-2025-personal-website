@@ -37,6 +37,7 @@ const Navigation = () => {
             <span>🏠</span>
           </Link>
         </li>
+
         <li>
           <Link
             className={`${linkItemClassNames} ${
@@ -47,6 +48,18 @@ const Navigation = () => {
             Projects
           </Link>
         </li>
+
+        <li>
+          <Link
+            className={`${linkItemClassNames} ${
+              pathname === "/about-me" ? "active" : ""
+            }`}
+            href="/about-me"
+          >
+            About Me
+          </Link>
+        </li>
+
         <li>
           <a
             className={linkItemClassNames}
@@ -59,16 +72,7 @@ const Navigation = () => {
             </span>
           </a>
         </li>
-        <li>
-          <Link
-            className={`${linkItemClassNames} ${
-              pathname === "/about-me" ? "active" : ""
-            }`}
-            href="/about-me"
-          >
-            About Me
-          </Link>
-        </li>
+
         <li>
           <button className={linkItemClassNames} onClick={toggleDarkMode}>
             {!isDarkMode ? <span>🌒</span> : <span>🌞</span>}

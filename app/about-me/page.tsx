@@ -41,16 +41,16 @@ export default function AboutMe() {
           The marketing agency life was enjoyable and appealing to me. I will
           miss all the variability of the projects, their scope, and their
           features. The people you work with are brilliant, too. The wild client
-          feedback and how quick turnarounds were. We'd have to learn a
+          feedback and how quick turnarounds were. We&apos;d have to learn a
           language, library, framework, or protocol (!!) on the go because the
           client wanted us to do X, Y, and Z. What?! I loved that feeling, and
           delivering felt even more remarkable. I learned to love learning.
         </p>
         <p>
-          Throughout my career, I've held many responsibilities: Individual
+          Throughout my career, I&apos;ve held many responsibilities: Individual
           Contributor, Architect, Chief Technology Officer, Engineering Manager,
           and Director to a few teams, projects, and products with various
-          levels of effort and impact. Nowadays, I'm enjoying my work as a
+          levels of effort and impact. Nowadays, I&apos;m enjoying my work as a
           Technical Program Manager for the digital core technology group in a
           fantastic Global tool and hardware company.
         </p>
