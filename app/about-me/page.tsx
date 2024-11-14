@@ -1,7 +1,12 @@
 import Image from "next/image";
+import { Metadata } from "next";
 import { headingFont } from "@/utility/fonts";
 import profilePicture from "@/assets/profile-picture-2024.avif";
 import SocialIcons from "@/components/SocialIcons";
+
+export const metadata: Metadata = {
+  title: "Learn More About Me",
+};
 
 export default function AboutMe() {
   return (

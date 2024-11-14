@@ -6,8 +6,31 @@ import "./globals.css";
 import Navigation from "@/components/Navigation";
 
 export const metadata: Metadata = {
-  title: "Antonio Rodríguez",
-  description: "From Puerto Rico, to the World!",
+  title: {
+    template: "%s | Antonio Rodriguez 🇵🇷",
+    default: "Antonio Rodriguez 🇵🇷",
+  },
+  description:
+    "Enjoyer of Learning and Getting Things Done, Parent, Technical Program Manager, Web Developer, Product Leader, Amateur Philosopher, Striving for Health, Consciousness, Strength, and Self-Transcendence ✨",
+  keywords: [
+    "portfolio",
+    "technical program manager",
+    "web developer",
+    "amateur philosopher",
+    "creative projects",
+    "web applications",
+    "react",
+    "nextjs",
+    "team building",
+    "project management",
+    "engineering management",
+    "digital marketing",
+    "digital marketing technologies",
+    "javascript",
+  ],
+  openGraph: {
+    images: ["/share-image.jpg"],
+  },
 };
 
 export default function RootLayout({

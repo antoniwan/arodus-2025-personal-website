@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { headingFont } from "@/utility/fonts";
 import ProjectItem from "@/components/ProjectItem";
 import kids_ebook_desktop from "@/assets/projects/ebook_kids-desktop.avif";
@@ -12,6 +13,10 @@ import wordle_mobile from "@/assets/projects/wordle-iphone.avif";
 import ja_desktop from "@/assets/projects/ja-desktop.avif";
 import ja_tablet from "@/assets/projects/ja-ipad.avif";
 import ja_mobile from "@/assets/projects/ja-iphone.avif";
+
+export const metadata: Metadata = {
+  title: "Recent Projects",
+};
 
 export default function Home() {
   return (
