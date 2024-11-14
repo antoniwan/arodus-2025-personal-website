@@ -36,6 +36,11 @@ const ProjectItem = ({
           {type}
         </h3>
         {children}
+        <h4 className="font-bold">
+          <a href={url} target="_blank" rel="noopener noreferrer">
+            Visit Project
+          </a>
+        </h4>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 m:h-80 p-8 overflow-hidden">
