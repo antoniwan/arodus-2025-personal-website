@@ -36,7 +36,7 @@ export default function Home() {
         <ul className="link-list">
           <li>
             <a href="https://www.linkedin.com/in/antoniwan/" target="_blank">
-              Work Profile @ LinkedIn <sub>🔗</sub>
+              LinkedIn Work Profile<sub>🔗</sub>
             </a>
           </li>
           <li>
@@ -51,15 +51,15 @@ export default function Home() {
           </li>
           <li>
             <Link href="mailto:antonio@builds.software" target="_blank">
-              Contact Me via Email
+              Contact Me via Email <span>📧</span>
             </Link>
           </li>
           <li>
-            <Link href="/projects">See Recent Projects</Link>
+            <Link href="/projects">Recent projects</Link>
           </li>
           <li>
             <a href="https://medium.com/@wizards777" rel="noreferrer noopener">
-              Blog @ Medium<sub>🔗</sub>
+              Blog<sub>🔗</sub>
             </a>
           </li>
           <li>
@@ -67,7 +67,7 @@ export default function Home() {
               href="https://www.goodreads.com/antoniwan"
               rel="noreferrer noopener"
             >
-              Check out what I&apos;m reading @ Goodreads <sub>🔗</sub>
+              I'm currently reading...<sub>🔗</sub>
             </a>
           </li>
           <li>
