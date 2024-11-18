@@ -25,7 +25,7 @@ export default function Home() {
         Recent Projects
       </h1>
 
-      <ProjectItem
+      {/* <ProjectItem
         title="AbogadaJulia.com"
         type="Immigration Lawyer CMS Website"
         url="https://www.abogadajulia.com"
@@ -72,7 +72,7 @@ export default function Home() {
           </a>{" "}
           on the four pillars.
         </p>
-      </ProjectItem>
+      </ProjectItem> */}
 
       <ProjectItem
         title="Mia, the Sun, and the Moon"
