@@ -7,8 +7,8 @@ import Navigation from "@/components/Navigation";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Antonio Rodriguez 🇵🇷",
-    default: "Antonio Rodriguez 🇵🇷",
+    template: "%s | Antonio Rodriguez Martinez 🇵🇷",
+    default: "Antonio Rodriguez Martinez 🇵🇷",
   },
   description:
     "Enjoyer of Learning and Getting Things Done, Parent, Technical Program Manager, Web Developer, Product Leader, Amateur Philosopher, Striving for Health, Consciousness, Strength, and Self-Transcendence ✨",
