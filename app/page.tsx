@@ -15,13 +15,13 @@ export default function Home() {
         <Image
           className="rounded-full"
           src={profilePicture}
-          alt="Picture of the Author, Antonio Rodriguez, hispanic handsome man that looks like Vegeta the Saiyan Prince"
+          alt="Picture of the Author, Antonio Rodriguez Martinez, hispanic handsome man that looks like Vegeta the Saiyan Prince"
         />
       </div>
 
       <div className="">
         <h1 className={`text-4xl font-black ${headingFont.className}`}>
-          Antonio Rodriguez
+          Antonio Rodriguez Martinez
         </h1>
         <p>
           <em>
